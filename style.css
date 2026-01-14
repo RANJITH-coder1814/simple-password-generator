@@ -1,0 +1,53 @@
+body {
+    background: #2c3e50;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #fff;
+}
+
+.container {
+    background: #34495e;
+    padding: 20px;
+    width: 350px;
+    border-radius: 10px;
+}
+
+h2 {
+    text-align: center;
+}
+
+.result-container {
+    background: #2c3e50;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+#copy {
+    background: #1abc9c;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    color: #000;
+    border-radius: 3px;
+}
+
+.settings div {
+    margin: 10px 0;
+}
+
+.btn {
+    width: 100%;
+    padding: 10px;
+    background: #1abc9c;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
